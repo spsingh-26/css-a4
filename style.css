@@ -1,0 +1,94 @@
+.header{
+    background-color: red;
+    background-image: linear-gradient(to right,red, green, yellow);
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+}
+
+.main-menu{
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    background-color: rgb(214, 214, 126);
+    margin: 10px auto;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /*flex-direction: column;*/
+    justify-content: center;
+}
+
+.top-content{
+    background-color: cadetblue;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+}
+
+.lorem{
+    background-color: steelblue;
+    border: 2px solid blue;
+    border-radius:  10px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.top{
+    background-color: yellow;
+    background-image: linear-gradient(to right, red, yellow, red);
+    margin: 15px auto;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+.grad{
+    background-color: aqua;
+    background-image: radial-gradient(rgb(233, 165, 165), rgb(211, 211, 149), red);
+    border: 2px solid yellowgreen;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(255, 166, 0);
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.tagline1{
+    background-color: rgb(172, 62, 62);
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px auto;
+    padding: 15px;
+    color: wheat;
+    font-weight: 700;
+}
+
+.maingrid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 100px;
+    background-color: gray;
+    padding: 5px;
+    
+}
+
+.gridcard{
+    background-color: gainsboro;
+    font-size: medium;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
